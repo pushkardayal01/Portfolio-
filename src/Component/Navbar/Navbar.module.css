@@ -1,0 +1,63 @@
+
+.nav {
+    
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 35px;
+}
+
+
+.listcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    background-color: black;
+    height: 100%;
+}
+
+
+.listitem {
+    margin: 0;
+    display: inline-block;
+}
+
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+/* Primary Button Styles */
+.pribtn {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.pribtn:hover {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
